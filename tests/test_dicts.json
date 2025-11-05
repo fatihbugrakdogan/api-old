@@ -1,0 +1,14 @@
+{
+  "source": {
+    "access_token": "eyJ0dCI6InAiLCJhbGciOiJIUzI1NiIsInR2IjoiMSJ9.eyJkIjoie1wiYVwiOjE2MzgxODIsXCJpXCI6OTE2MzQ1NyxcImNcIjo0Njg3ODc1LFwidVwiOjIwMTE2MTIxLFwiclwiOlwiVVNcIixcInNcIjpbXCJXXCIsXCJGXCIsXCJJXCIsXCJVXCIsXCJLXCIsXCJDXCIsXCJEXCIsXCJNXCIsXCJBXCIsXCJMXCIsXCJQXCJdLFwielwiOltdLFwidFwiOjB9IiwiaWF0IjoxNzI0NjY3MjU1fQ.kpFRiFjjHva4O7w4jVQNvTaTtCuidwzwHGqQ2M5PTV4",
+    "workspace_id": "IEABR7ZGI4PN7WMO",
+    "platform_id": "wrike"
+  },
+  "target": {
+    "access_token": "2/1201999580693479/1207640855638587:e4409b0cabf7d482f34c90ed2eb50a4",
+    "workspace_id": "1199881345422090",
+    "platform_id": "asana"
+  },
+  "entities": ["project"],
+  "project_ids": ["IEABR7ZGI7777777"]
+}

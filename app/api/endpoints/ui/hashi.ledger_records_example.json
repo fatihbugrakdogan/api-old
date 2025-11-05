@@ -1,0 +1,3758 @@
+[{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:attachment:1211616591576399",
+  "created_at": {
+    "$date": "2025-10-11T12:55:09.304Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:attachment",
+    "platform": "asana",
+    "kind": "attachment",
+    "data": {
+      "discriminator": "asana:attachment",
+      "id": "1211616591576399",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:attachment",
+    "platform": "asana",
+    "kind": "attachment",
+    "data": {
+      "discriminator": "asana:attachment",
+      "id": "1211616457602220",
+      "task_gid": "1211616525706631",
+      "project_gid": null,
+      "section_gid": null
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:09.304Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:12.103Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "attachment_id": "1211616457602220"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:09.304Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:comment:1211616591576397",
+  "created_at": {
+    "$date": "2025-10-11T12:55:13.128Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:comment",
+    "platform": "asana",
+    "kind": "comment",
+    "data": {
+      "discriminator": "asana:comment",
+      "id": "1211616591576397",
+      "task_gid": "1211616591576348",
+      "text": null,
+      "created_at": null,
+      "created_by_gid": null,
+      "created_by_name": null
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:comment",
+    "platform": "asana",
+    "kind": "comment",
+    "data": {
+      "discriminator": "asana:comment",
+      "id": "1211616526099811",
+      "task_gid": "1211616525706631",
+      "text": null,
+      "created_at": null,
+      "created_by_gid": null,
+      "created_by_name": null
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:13.128Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:15.109Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "comment_id": "1211616526099811"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:13.128Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:comment:1211616591576395",
+  "created_at": {
+    "$date": "2025-10-11T15:55:40.727Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:comment",
+    "platform": "asana",
+    "kind": "comment",
+    "data": {
+      "discriminator": "asana:comment",
+      "id": "1211616591576395",
+      "task_gid": "1211616591576391",
+      "text": null,
+      "created_at": null,
+      "created_by_gid": null,
+      "created_by_name": null
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:comment",
+    "platform": "asana",
+    "kind": "comment",
+    "data": {
+      "discriminator": "asana:comment",
+      "id": "1211616526366827",
+      "task_gid": "1211616526134998",
+      "text": null,
+      "created_at": null,
+      "created_by_gid": null,
+      "created_by_name": null
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:40.727Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:43.782Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "comment_id": "1211616526366827"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:40.727Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:custom_field:1211616591576338",
+  "created_at": {
+    "$date": "2025-10-11T15:54:33.314Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616591576338",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616525744281",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:33.576Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:37.305Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:33.314Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:custom_field:1211616591576343",
+  "created_at": {
+    "$date": "2025-10-11T15:54:33.705Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616591576343",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616525764029",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:33.959Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:39.024Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:33.705Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:custom_field:1211616591576369",
+  "created_at": {
+    "$date": "2025-10-11T15:54:34.090Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616591576369",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616594440327",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:34.346Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:40.707Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:34.090Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:custom_field:1211616591576376",
+  "created_at": {
+    "$date": "2025-10-11T15:54:34.475Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616591576376",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616594598109",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:34.730Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:42.238Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:34.475Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:custom_field:1211616591576382",
+  "created_at": {
+    "$date": "2025-10-11T15:54:34.860Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616591576382",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616525802264",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:35.116Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:43.327Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:34.860Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:custom_field:1211616591576386",
+  "created_at": {
+    "$date": "2025-10-11T15:54:35.246Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616591576386",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field",
+    "platform": "asana",
+    "kind": "custom_field",
+    "data": {
+      "discriminator": "asana:custom_field",
+      "id": "1211616594616282",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:35.507Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:44.397Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:35.246Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576360",
+  "created_at": {
+    "$date": "2025-10-11T12:54:57.599Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576360",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576360",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:58.041Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:04.387Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:57.599Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352:asana:custom_field_value:1211616591576352:1211616591576338",
+  "created_at": {
+    "$date": "2025-10-11T12:54:57.981Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576338",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576338",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:58.415Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:04.170Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:57.981Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576360",
+  "created_at": {
+    "$date": "2025-10-11T15:54:57.711Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576360",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576360",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:58.484Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:07.491Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:57.711Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576338",
+  "created_at": {
+    "$date": "2025-10-11T12:54:58.187Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576338",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576338",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:58.621Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:04.976Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:58.187Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352:asana:custom_field_value:1211616591576352:1211616591576343",
+  "created_at": {
+    "$date": "2025-10-11T12:54:58.559Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576343",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576343",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:58.992Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:04.750Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:58.559Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576343",
+  "created_at": {
+    "$date": "2025-10-11T12:54:58.765Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576343",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576343",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:59.197Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:05.558Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:58.765Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352:asana:custom_field_value:1211616591576352:1211616591576369",
+  "created_at": {
+    "$date": "2025-10-11T12:54:59.136Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576369",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576369",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:59.570Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:05.338Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:59.136Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576338",
+  "created_at": {
+    "$date": "2025-10-11T15:54:58.743Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576338",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576338",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:59.527Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:08.520Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:58.743Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576369",
+  "created_at": {
+    "$date": "2025-10-11T12:54:59.343Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576369",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576369",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:59.775Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:06.138Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:59.343Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352:asana:custom_field_value:1211616591576352:1211616591576376",
+  "created_at": {
+    "$date": "2025-10-11T12:54:59.714Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576376",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576376",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:00.152Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:05.920Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:59.714Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576376",
+  "created_at": {
+    "$date": "2025-10-11T12:54:59.919Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576376",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576376",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:00.371Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:06.716Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:59.919Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576343",
+  "created_at": {
+    "$date": "2025-10-11T15:54:59.787Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576343",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576343",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:00.583Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:09.557Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:59.787Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352:asana:custom_field_value:1211616591576352:1211616591576382",
+  "created_at": {
+    "$date": "2025-10-11T12:55:00.297Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576382",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576382",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:00.735Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:06.500Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:00.297Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576382",
+  "created_at": {
+    "$date": "2025-10-11T12:55:00.515Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576382",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576382",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:00.951Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:07.297Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:00.515Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352:asana:custom_field_value:1211616591576352:1211616591576386",
+  "created_at": {
+    "$date": "2025-10-11T12:55:00.879Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576386",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576352:1211616591576386",
+      "task_gid": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:01.315Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:07.086Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:00.879Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348:asana:custom_field_value:1211616591576348:1211616591576386",
+  "created_at": {
+    "$date": "2025-10-11T12:55:01.097Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576386",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576348:1211616591576386",
+      "task_gid": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:01.532Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:08.680Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:01.097Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576369",
+  "created_at": {
+    "$date": "2025-10-11T15:55:00.842Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576369",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576369",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:01.615Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:10.637Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:00.842Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576376",
+  "created_at": {
+    "$date": "2025-10-11T15:55:01.870Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576376",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576376",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:02.643Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:11.670Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:01.870Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576382",
+  "created_at": {
+    "$date": "2025-10-11T15:55:02.899Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576382",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576382",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:03.678Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:12.702Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:02.899Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350:asana:custom_field_value:1211616591576350:1211616591576386",
+  "created_at": {
+    "$date": "2025-10-11T15:55:03.937Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576386",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576350:1211616591576386",
+      "task_gid": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:04.709Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:13.736Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:03.937Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576360",
+  "created_at": {
+    "$date": "2025-10-11T12:55:21.385Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576360",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576360",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:21.819Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:26.755Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:21.385Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576360",
+  "created_at": {
+    "$date": "2025-10-11T15:55:21.411Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576360",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576360",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576360"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:22.188Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:31.568Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:21.411Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576338",
+  "created_at": {
+    "$date": "2025-10-11T12:55:21.963Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576338",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576338",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:22.401Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:27.335Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:21.963Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576343",
+  "created_at": {
+    "$date": "2025-10-11T12:55:22.546Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576343",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576343",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:22.982Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:27.914Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:22.546Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576338",
+  "created_at": {
+    "$date": "2025-10-11T15:55:22.450Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576338",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576338",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576338"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:23.224Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:32.606Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:22.450Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576369",
+  "created_at": {
+    "$date": "2025-10-11T12:55:23.127Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576369",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576369",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:23.560Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:28.498Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:23.127Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576376",
+  "created_at": {
+    "$date": "2025-10-11T12:55:23.704Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576376",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576376",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:24.141Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:29.080Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:23.704Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576343",
+  "created_at": {
+    "$date": "2025-10-11T15:55:23.484Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576343",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576343",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576343"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:24.260Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:33.633Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:23.484Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576382",
+  "created_at": {
+    "$date": "2025-10-11T12:55:24.284Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576382",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576382",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:24.718Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:29.670Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:24.284Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576392:asana:custom_field_value:1211616591576392:1211616591576386",
+  "created_at": {
+    "$date": "2025-10-11T12:55:24.868Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576386",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576392:1211616591576386",
+      "task_gid": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:25.302Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:30.248Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:24.868Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576369",
+  "created_at": {
+    "$date": "2025-10-11T15:55:24.518Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576369",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576369",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576369"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:25.295Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:34.671Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:24.518Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576376",
+  "created_at": {
+    "$date": "2025-10-11T15:55:25.552Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576376",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576376",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576376"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:26.330Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:35.696Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:25.552Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576382",
+  "created_at": {
+    "$date": "2025-10-11T15:55:26.589Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576382",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576382",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576382"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:27.367Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:36.728Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:26.589Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576391:asana:custom_field_value:1211616591576391:1211616591576386",
+  "created_at": {
+    "$date": "2025-10-11T15:55:27.625Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576386",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:custom_field_value",
+    "platform": "asana",
+    "kind": "custom_field_value",
+    "data": {
+      "discriminator": "asana:custom_field_value",
+      "id": "1211616591576391:1211616591576386",
+      "task_gid": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "custom_field_gid": "1211616591576386"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:28.397Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:37.768Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:27.625Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333",
+  "created_at": {
+    "$date": "2025-10-11T12:54:14.281Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T12:54:14.281Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T12:54:14.281Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "task": {
+        "total_objects": 3,
+        "created": 3,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "comment": {
+        "total_objects": 2,
+        "created": 2,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field": {
+        "total_objects": 6,
+        "created": 6,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 34,
+        "created": 34,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 3,
+        "created": 3,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 1,
+        "created": 1,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "section": {
+        "total_objects": 3,
+        "created": 3,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:project",
+    "platform": "asana",
+    "kind": "project",
+    "data": {
+      "discriminator": "asana:project",
+      "id": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:project",
+    "platform": "asana",
+    "kind": "project",
+    "data": {
+      "discriminator": "asana:project",
+      "id": "1211616594455048"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:14.281Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {
+        "project_id": "1211616591576333"
+      },
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:32.289Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "project_id": "1211616594455048"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:14.281Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:section:1211616591576334",
+  "created_at": {
+    "$date": "2025-10-11T15:54:45.367Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:54:45.367Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:54:45.367Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "task": {
+        "total_objects": 3,
+        "created": 3,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "comment": {
+        "total_objects": 2,
+        "created": 2,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 34,
+        "created": 34,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 3,
+        "created": 3,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 1,
+        "created": 1,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:section",
+    "platform": "asana",
+    "kind": "section",
+    "data": {
+      "discriminator": "asana:section",
+      "id": "1211616591576334",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:section",
+    "platform": "asana",
+    "kind": "section",
+    "data": {
+      "discriminator": "asana:section",
+      "id": "1211616594500752",
+      "project_gid": "1211616594455048"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:45.611Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:48.248Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:45.367Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:section:1211616591576336",
+  "created_at": {
+    "$date": "2025-10-11T15:54:45.737Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:54:45.737Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:54:45.737Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "task": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "comment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:section",
+    "platform": "asana",
+    "kind": "section",
+    "data": {
+      "discriminator": "asana:section",
+      "id": "1211616591576336",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:section",
+    "platform": "asana",
+    "kind": "section",
+    "data": {
+      "discriminator": "asana:section",
+      "id": "1211616525860475",
+      "project_gid": "1211616594455048"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:45.984Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:49.251Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:45.737Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:section:1211616591576337",
+  "created_at": {
+    "$date": "2025-10-11T15:54:46.105Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:54:46.105Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:54:46.105Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "task": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "comment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:section",
+    "platform": "asana",
+    "kind": "section",
+    "data": {
+      "discriminator": "asana:section",
+      "id": "1211616591576337",
+      "project_gid": "1211616591576333"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:section",
+    "platform": "asana",
+    "kind": "section",
+    "data": {
+      "discriminator": "asana:section",
+      "id": "1211616594578221",
+      "project_gid": "1211616594455048"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:46.348Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:50.258Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:46.105Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:subtask:1211616591576391",
+  "created_at": {
+    "$date": "2025-10-11T12:55:16.543Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T12:55:16.544Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T12:55:16.544Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "comment": {
+        "total_objects": 1,
+        "created": 1,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 7,
+        "created": 7,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "pending": 0,
+        "total_objects": 1,
+        "created": 1
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:subtask",
+    "platform": "asana",
+    "kind": "subtask",
+    "data": {
+      "discriminator": "asana:subtask",
+      "id": "1211616591576391",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "parent_task_gid": "1211616591576348",
+      "root_task_gid": "1211616591576348"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:subtask",
+    "platform": "asana",
+    "kind": "subtask",
+    "data": {
+      "discriminator": "asana:subtask",
+      "id": "1211616526134998",
+      "project_gid": "1211616594455048",
+      "section_gid": "1211616594500752",
+      "parent_task_gid": "1211616525706631",
+      "root_task_gid": "1211616525706631"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:20.560Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "task_id": "1211616526134998"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:16.543Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:subtask:1211616591576392",
+  "created_at": {
+    "$date": "2025-10-11T12:55:17.049Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T12:55:17.049Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T12:55:17.049Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "comment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 7,
+        "created": 7,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:subtask",
+    "platform": "asana",
+    "kind": "subtask",
+    "data": {
+      "discriminator": "asana:subtask",
+      "id": "1211616591576392",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "parent_task_gid": "1211616591576348",
+      "root_task_gid": "1211616591576348"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:subtask",
+    "platform": "asana",
+    "kind": "subtask",
+    "data": {
+      "discriminator": "asana:subtask",
+      "id": "1211616526143782",
+      "project_gid": "1211616594455048",
+      "section_gid": "1211616594500752",
+      "parent_task_gid": "1211616525706631",
+      "root_task_gid": "1211616525706631"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:55:20.940Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "task_id": "1211616526143782"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:55:17.049Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:subtask:1211616591576393",
+  "created_at": {
+    "$date": "2025-10-11T15:55:46.331Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:55:46.331Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:55:46.331Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "comment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:subtask",
+    "platform": "asana",
+    "kind": "subtask",
+    "data": {
+      "discriminator": "asana:subtask",
+      "id": "1211616591576393",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334",
+      "parent_task_gid": "1211616591576391",
+      "root_task_gid": "1211616591576391"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:subtask",
+    "platform": "asana",
+    "kind": "subtask",
+    "data": {
+      "discriminator": "asana:subtask",
+      "id": "1211616595226491",
+      "project_gid": "1211616594455048",
+      "section_gid": "1211616594500752",
+      "parent_task_gid": "1211616526134998",
+      "root_task_gid": "1211616526134998"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:55:50.166Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "task_id": "1211616595226491"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:55:46.331Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576348",
+  "created_at": {
+    "$date": "2025-10-11T15:54:51.506Z"
+  },
+  "idempotency_key": "idem:8bd24228af92c95ed308e1a715eaea2ab8569fb7",
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:54:51.506Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:54:51.506Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "comment": {
+        "total_objects": 1,
+        "created": 1,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 7,
+        "created": 7,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 2,
+        "created": 2,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 1,
+        "created": 1,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:task",
+    "platform": "asana",
+    "kind": "task",
+    "data": {
+      "discriminator": "asana:task",
+      "id": "1211616591576348",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:task",
+    "platform": "asana",
+    "kind": "task",
+    "data": {
+      "discriminator": "asana:task",
+      "id": "1211616525706631",
+      "project_gid": "1211616594455048",
+      "section_gid": "1211616594500752"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:51.761Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:56.032Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "task_id": "1211616525706631"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:51.506Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576350",
+  "created_at": {
+    "$date": "2025-10-11T15:54:51.891Z"
+  },
+  "idempotency_key": "idem:2d97091699fa1e38342cb56a22a21e1a9328f532",
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:54:51.891Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:54:51.891Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "comment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 7,
+        "created": 7,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:task",
+    "platform": "asana",
+    "kind": "task",
+    "data": {
+      "discriminator": "asana:task",
+      "id": "1211616591576350",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:task",
+    "platform": "asana",
+    "kind": "task",
+    "data": {
+      "discriminator": "asana:task",
+      "id": "1211616594634536",
+      "project_gid": "1211616594455048",
+      "section_gid": "1211616594500752"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:52.146Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:56.858Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "task_id": "1211616594634536"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:51.891Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:project:1211616591576333:asana:task:1211616591576352",
+  "created_at": {
+    "$date": "2025-10-11T15:54:52.275Z"
+  },
+  "idempotency_key": "idem:836aafbae13fa4bad3d755e0ee529c77d53ede2d",
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T15:54:52.275Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T15:54:52.275Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "comment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "custom_field_value": {
+        "total_objects": 6,
+        "created": 6,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "subtask": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      },
+      "attachment": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:task",
+    "platform": "asana",
+    "kind": "task",
+    "data": {
+      "discriminator": "asana:task",
+      "id": "1211616591576352",
+      "project_gid": "1211616591576333",
+      "section_gid": "1211616591576334"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:task",
+    "platform": "asana",
+    "kind": "task",
+    "data": {
+      "discriminator": "asana:task",
+      "id": "1211616594757401",
+      "project_gid": "1211616594455048",
+      "section_gid": "1211616594500752"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:52.528Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {},
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:57.520Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "task_id": "1211616594757401"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T15:54:52.275Z"
+  }
+},
+{
+  "_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0:asana:team:1211616589627245",
+  "created_at": {
+    "$date": "2025-10-11T12:54:15.639Z"
+  },
+  "idempotency_key": null,
+  "migration_id": "beb8ad11-fb23-4680-959f-5bf863c2a6e0",
+  "rollup": {
+    "status": "pending",
+    "window": {
+      "started_at": {
+        "$date": "2025-10-11T12:54:15.639Z"
+      },
+      "finished_at": {
+        "$date": "2025-10-11T12:54:15.639Z"
+      },
+      "duration_ms": 0
+    },
+    "entities": {
+      "user": {
+        "total_objects": 0,
+        "created": 0,
+        "updated": 0,
+        "skipped": 0,
+        "failed": 0,
+        "pending": 0,
+        "success_rate": 0,
+        "errors_top": {}
+      }
+    }
+  },
+  "run_id": "2d3eb9db-3082-4d8e-af41-d939f94c24e1",
+  "source": {
+    "discriminator": "asana:team",
+    "platform": "asana",
+    "kind": "team",
+    "data": {
+      "discriminator": "asana:team",
+      "id": "1211616589627245"
+    }
+  },
+  "status": "created",
+  "target": {
+    "discriminator": "asana:team",
+    "platform": "asana",
+    "kind": "team",
+    "data": {
+      "discriminator": "asana:team",
+      "id": "1211616594488461"
+    }
+  },
+  "tenant": "00b8fb07-baa1-46f3-aaea-a41b761f1296",
+  "transactions": [
+    {
+      "ts": {
+        "$date": "2025-10-11T12:54:15.640Z"
+      },
+      "status": "pending",
+      "attempt": 1,
+      "context": {
+        "team_id": "1211616589627245"
+      },
+      "error": null
+    },
+    {
+      "ts": {
+        "$date": "2025-10-11T15:54:27.890Z"
+      },
+      "status": "created",
+      "attempt": 1,
+      "context": {
+        "team_id": "1211616589627245"
+      },
+      "error": null
+    }
+  ],
+  "updated_at": {
+    "$date": "2025-10-11T12:54:15.639Z"
+  }
+}]

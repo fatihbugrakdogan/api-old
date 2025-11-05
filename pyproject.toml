@@ -1,0 +1,18 @@
+[tool.black]
+line-length = 88  # Default is 88, you can adjust it according to your preference
+skip-string-normalization = false  # If true, string literals won't be normalized to use double quotes
+target-version = ['py37']  # Target specific Python versions; options include py27, py35, py36, py37, py38, py39
+include = '\.pyi?$'  # A regular expression that matches files and directories that should be included on recursive searches
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+)/
+'''  # A regular expression that matches files and directories that should be excluded on recursive searches

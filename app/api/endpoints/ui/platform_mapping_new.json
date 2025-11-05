@@ -1,0 +1,57 @@
+{
+    "entities": [
+      "project",
+      "task",
+      "customField",
+      "attachment",
+      "comment",
+      "subtask",
+      "section"
+    ],
+    "platforms": {
+      "asana": {
+        "id": "asana",
+        "name": "Asana",
+        "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1725129733/412cb9-asana-icon_yhbgmh.svg",
+        "isReady": true,
+        "accessTokenDocumentation": "https://developers.asana.com/docs/personal-access-token",
+        "mapping": {
+          "project": {
+            "id": "project",
+            "name": "Project",
+            "isPremium": false
+          },
+          "task": {
+            "id": "task",
+            "name": "Task",
+            "isPremium": false
+          },
+          "customField": {
+            "id": "custom_field",
+            "name": "Custom Field",
+            "isPremium": true
+          },
+          "attachment": {
+            "id": "attachment",
+            "name": "Attachment",
+            "isPremium": true
+          },
+          "comment": {
+            "id": "comment",
+            "name": "Comment",
+            "isPremium": true
+          },
+          "subtask": {
+            "id": "subtask",
+            "name": "Subtask",
+            "isPremium": true
+          },
+          "section": {
+            "id": "section",
+            "name": "Section",
+            "isPremium": true
+          }
+        }
+      }
+    }
+  }

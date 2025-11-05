@@ -1,0 +1,45 @@
+version: "3.8"
+
+services:
+  fastapi:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /app
+
+    expose:
+      - 80
+    env_file:
+      - .env.local
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fastapi.rule=Host(`localhost`)"
+      - "traefik.http.services.fastapi.loadbalancer.server.port=80"
+
+    restart: unless-stopped
+
+  traefik:
+    image: "traefik:v3.1"
+    container_name: "traefik"
+    command:
+      #- "--log.level=DEBUG"
+      - "--api.insecure=true"
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--entryPoints.fastapi.address=:80"
+    ports:
+      - "80:80"
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    command: >
+      tunnel --no-autoupdate run --token eyJhIjoiNGY3Yzc3YzE2Zjg0ZTY5OGMwM2ZiNzE5MWViMTY4ZjYiLCJ0IjoiNTdlZTQwMWYtZTg1NC00NWI2LTgxMzAtZjQwMzRlMjUxNmZkIiwicyI6Ik9USTFZelU0TVdNdE1HVTJOQzAwWkdFM0xUZ3pNell0TUdZMll6azNPREUxWWpjMCJ9
+    restart: unless-stopped
