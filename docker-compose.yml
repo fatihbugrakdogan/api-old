@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.prod
+      args:
+        - GITHUB_TOKEN=${GITHUB_TOKEN}
     # Publish port 80 to the host
     ports:
       - "80:80"

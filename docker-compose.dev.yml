@@ -5,6 +5,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile.dev
+      args:
+        - GITHUB_TOKEN=${GITHUB_TOKEN}
     develop:
       watch:
         - action: sync

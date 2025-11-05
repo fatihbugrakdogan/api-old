@@ -28,4 +28,4 @@ pydantic-settings==2.5.2
 bs4==0.0.2
 requests==2.26.0
 click==8.1.6
-git+ssh://git@github.com/omtera/bento.git@main#egg=bento
+git+https://github.com/omtera/bento.git@main#egg=bento
