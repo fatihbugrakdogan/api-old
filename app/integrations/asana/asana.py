@@ -128,9 +128,3 @@ class Asana:
 
     def delete_webhook(self, webhook_gid):
         return self.client.webhooks.delete_webhook(webhook_gid, opt_pretty=True)
-
-    def get_workspace_name(self, workspace_gid):
-        return self.client.workspaces.get_workspace(workspace_gid).get("name")
-
-    def get_project_url(self, project_gid):
-        return self.client.projects.get_project(project_gid).get("permalink_url")

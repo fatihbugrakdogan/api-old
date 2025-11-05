@@ -1,8 +1,14 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends
 from app.models.api_models.workflows import MigrationInfos
 from app.core.config import settings
 from temporalio.client import Client
-from hashi.workflows.migrate_asana_to_asana import AsanaToAsanaMigration
+from bento.workflows import (
+    SmartsheetToAsanaMigrationWorkflow,
+    MondayToAsanaMigrationWorkflow,
+    AsanaToAsanaMigrationWorkflow,
+    WrikeToAsanaMigrationWorkflow,
+    AirtableToAsanaMigrationWorkflow,
+)
 from temporalio.client import Client
 from uuid import uuid4
 from app.repositories.migration_repository import MigrationRepository
@@ -14,16 +20,16 @@ router = APIRouter()
 
 
 def select_migration_type(migration_input: MigrationInfos):
-    # Only support Asana to Asana migration with hashi
-    if (
-        migration_input.source.platform_id == "asana"
-        and migration_input.target.platform_id == "asana"
-    ):
-        return AsanaToAsanaMigration
-    else:
-        raise HTTPException(
-            status_code=400, detail="Only Asana to Asana migration is supported"
-        )
+    if migration_input.source.platform_id == "monday":
+        return MondayToAsanaMigrationWorkflow
+    elif migration_input.source.platform_id == "asana":
+        return AsanaToAsanaMigrationWorkflow
+    elif migration_input.source.platform_id == "smartsheet":
+        return SmartsheetToAsanaMigrationWorkflow
+    elif migration_input.source.platform_id == "wrike":
+        return WrikeToAsanaMigrationWorkflow
+    elif migration_input.source.platform_id == "airtable":
+        return AirtableToAsanaMigrationWorkflow
 
 
 @router.post("/create-migration")
@@ -47,28 +53,10 @@ async def create_migration(
 
     migration_type = select_migration_type(migration_input)
 
-    # Generate run_id if not provided
-    run_id = migration_input.run_id or str(uuid4())
-
-    # Format input for hashi MigrationInput
-    from hashi.models.workflow.models import MigrationInput, Platform
-
-    formatted_migration_input = MigrationInput(
-        tenant=migration_input.tenant,
-        migration_id=migration_id,
-        run_id=run_id,
-        source=Platform(
-            access_token=migration_input.source.access_token,
-            platform_id=migration_input.source.platform_id,
-            workspace_id=migration_input.source.workspace_id,
-        ),
-        target=Platform(
-            access_token=migration_input.target.access_token,
-            platform_id=migration_input.target.platform_id,
-            workspace_id=migration_input.target.workspace_id,
-        ),
-        projects=migration_input.project_ids,
-    )
+    formatted_migration_input = {
+        **migration_input.model_dump(by_alias=True),
+        "migration_id": migration_id,
+    }
 
     await temporal_client.start_workflow(
         migration_type.run,

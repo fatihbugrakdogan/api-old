@@ -1,5 +1,7 @@
-from pydantic import BaseModel
-from typing import Optional, List, Dict
+from pydantic import BaseModel, Field, EmailStr
+from typing import Optional, List,Dict
+from app.utils.objectid import PydanticObjectId
+from bson import ObjectId
 
 
 class TaskIDIn(BaseModel):
@@ -19,5 +21,3 @@ class MigrationInfos(BaseModel):
     entities: List[str]
     project_ids: List[str]
     user_mappings: List[Dict]
-    tenant: str
-    run_id: Optional[str] = None

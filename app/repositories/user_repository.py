@@ -53,11 +53,3 @@ class UserRepository(BaseRepository):
         user_in = user.dict()
         created_user = await self.create(item=user_in)
         return UserWithoutPasswordInDB(**created_user)
-
-    async def get_by_external_id(self, external_id: str) -> Optional[UserInDB]:
-        """Get user by external ID (like Vercel user ID)"""
-        collection = self.db[self.collection_name]
-        user = await collection.find_one({"external_id": external_id})
-        if not user:
-            return None
-        return UserInDB(**user)

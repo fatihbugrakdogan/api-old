@@ -1,7 +1,9 @@
 from fastapi import APIRouter, Query, Depends
 from app.core.dependencies import get_current_user
 from app.integrations.asana import AsanaWithAccessToken as Asana
-from hashi.workflows.migrate_asana_to_asana import AsanaToAsanaMigration
+from app.temporal.workflows.asana_to_asana_migration import (
+    AsanaToAsanaMigrationWorkflow,
+)
 from app.core.config import settings
 from temporalio.client import Client
 import secrets
@@ -49,7 +51,7 @@ async def migrate_asana_to_asana(
     key = secrets.token_hex(16)
 
     migration_workflow = await client.start_workflow(
-        AsanaToAsanaMigration.run,
+        AsanaToAsanaMigrationWorkflow.run,
         payload,
         id=key,
         task_queue="tasks-queue",

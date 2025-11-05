@@ -52,6 +52,304 @@
           "isPremium": true
         }
       }
+    },
+    "monday": {
+      "id": "monday",
+      "name": "Monday.com",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1725130280/monday_x8fdtd.svg",
+      "isReady": true,
+      "accessTokenDocumentation": "https://developer.monday.com/api-reference/docs/authentication",
+      "mapping": {
+        "project": {
+          "id": "board",
+          "name": "Board",
+          "isPremium": false
+        },
+        "task": {
+          "id": "item",
+          "name": "Item",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "column",
+          "name": "Column",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "file",
+          "name": "File",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "update",
+          "name": "Update",
+          "isPremium": true
+        },
+        "subtask": {
+          "id": "subitem",
+          "name": "Subitem",
+          "isPremium": true
+        },
+        "section": {
+          "id": "group",
+          "name": "Group",
+          "isPremium": true
+        }
+      }
+    },
+    "wrike": {
+      "id": "wrike",
+      "name": "Wrike",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1725129825/wrike-logo-8C98A8EDEF-seeklogo.com__v4x53v.png",
+      "isReady": true,
+      "accessTokenDocumentation": "https://developers.wrike.com/oauth-20-authorization/",
+      "mapping": {
+        "project": {
+          "id": "folder",
+          "name": "Folder",
+          "isPremium": false
+        },
+        "task": {
+          "id": "task",
+          "name": "Task",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "custom_field",
+          "name": "Custom Field",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "attachment",
+          "name": "Attachment",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "comment",
+          "name": "Comment",
+          "isPremium": true
+        },
+        "subtask": {
+          "id": "subtask",
+          "name": "Subtask",
+          "isPremium": true
+        },
+        "section": {
+          "id": "section",
+          "name": "Section",
+          "isPremium": true
+        }
+      }
+    },
+    "smartsheet": {
+      "id": "smartsheet",
+      "name": "Smartsheet",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1734803929/smartsheet_oisdx3.jpg",
+      "isReady": true,
+      "accessTokenDocumentation": "https://help.smartsheet.com/articles/2482389-generate-API-key",
+      "mapping": {
+        "project": {
+          "id": "sheet",
+          "name": "Sheet",
+          "isPremium": false
+        },
+        "task": {
+          "id": "row",
+          "name": "Row",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "column",
+          "name": "Column",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "attachment",
+          "name": "Attachment",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "comment",
+          "name": "Comment",
+          "isPremium": true
+        },
+        "section": {
+          "id": "section",
+          "name": "Section",
+          "isPremium": true
+        }
+      }
+    },
+    "airtable": {
+      "id": "airtable",
+      "name": "Airtable",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1734836885/airtable-logo-216B9AF035-seeklogo.com_rr5nko.png",
+      "isReady": true,
+      "accessTokenDocumentation": "https://support.airtable.com/docs/creating-personal-access-tokens",
+      "mapping": {
+        "project": {
+          "id": "base",
+          "name": "Base",
+          "isPremium": false
+        },
+        "task": {
+          "id": "record",
+          "name": "Record",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "field",
+          "name": "Field",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "attachment",
+          "name": "Attachment",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "comment",
+          "name": "Comment",
+          "isPremium": true
+        },
+        "section": {
+          "id": "view",
+          "name": "View",
+          "isPremium": true
+        }
+      }
+    },
+    "clickup": {
+      "id": "clickup",
+      "name": "ClickUp",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1734803929/clickup_qts4g3.jpg",
+      "isReady": false,
+      "accessTokenDocumentation": "https://developer.clickup.com/docs/authentication",
+      "mapping": {
+        "project": {
+          "id": "space",
+          "name": "Space",
+          "isPremium": false
+        },
+        "task": {
+          "id": "task",
+          "name": "Task",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "custom_field",
+          "name": "Custom Field",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "attachment",
+          "name": "Attachment",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "comment",
+          "name": "Comment",
+          "isPremium": true
+        },
+        "subtask": {
+          "id": "subtask",
+          "name": "Subtask",
+          "isPremium": true
+        },
+        "section": {
+          "id": "list",
+          "name": "List",
+          "isPremium": true
+        }
+      }
+    },
+    "jira": {
+      "id": "jira",
+      "name": "Jira",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1734803929/jira_gfbqzk.svg",
+      "isReady": false,
+      "accessTokenDocumentation": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/",
+      "mapping": {
+        "project": {
+          "id": "project",
+          "name": "Project",
+          "isPremium": false
+        },
+        "task": {
+          "id": "issue",
+          "name": "Issue",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "custom_field",
+          "name": "Custom Field",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "attachment",
+          "name": "Attachment",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "comment",
+          "name": "Comment",
+          "isPremium": true
+        },
+        "subtask": {
+          "id": "subtask",
+          "name": "Subtask",
+          "isPremium": true
+        },
+        "section": {
+          "id": "board",
+          "name": "Board",
+          "isPremium": true
+        }
+      }
+    },
+    "teamwork": {
+      "id": "teamwork",
+      "name": "Teamwork",
+      "icon": "https://res.cloudinary.com/dergt2trh/image/upload/v1734803929/teamwork_im4ubh.png",
+      "isReady": false,
+      "accessTokenDocumentation": "https://support.teamwork.com/projects/using-teamwork/locating-your-api-key",
+      "mapping": {
+        "project": {
+          "id": "project",
+          "name": "Project",
+          "isPremium": false
+        },
+        "task": {
+          "id": "task",
+          "name": "Task",
+          "isPremium": false
+        },
+        "customField": {
+          "id": "custom_field",
+          "name": "Custom Field",
+          "isPremium": true
+        },
+        "attachment": {
+          "id": "attachment",
+          "name": "Attachment",
+          "isPremium": true
+        },
+        "comment": {
+          "id": "comment",
+          "name": "Comment",
+          "isPremium": true
+        },
+        "subtask": {
+          "id": "subtask",
+          "name": "Subtask",
+          "isPremium": true
+        },
+        "section": {
+          "id": "task_list",
+          "name": "Task List",
+          "isPremium": true
+        }
+      }
     }
   }
 }

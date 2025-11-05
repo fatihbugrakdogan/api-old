@@ -39,16 +39,16 @@ class AsanaWithAccessToken:
         return workspaces
 
     def get_all_users_from_workspace(self, workspace_gid):
-        users = (
-            self.client.workspace_memberships.get_workspace_memberships_for_workspace(
+        users=self.client.workspace_memberships.get_workspace_memberships_for_workspace(
                 workspace_gid,
             )
-        )
-        users_list = []
+        users_list=[]
         for user in users:
             if user["user"]["is_guest"]:
                 continue
-            users_list.append(user)
+            users_list.append(
+                user
+            )
         return users_list
 
     def get_workspace_name(self, workspace_gid):
@@ -56,20 +56,14 @@ class AsanaWithAccessToken:
         return workspace.get("name")
 
     def get_projects(self, workspace_gid):
-        projects = self.client.projects.get_projects(
-            {"workspace": workspace_gid}, opt_fields="name,permalink_url,owner.name,gid"
-        )
+        projects = self.client.projects.get_projects({"workspace": workspace_gid}, opt_fields="name,permalink_url,owner.name,gid")
         projects_list = []
         for project in projects:
             projects_list.append(
                 {
                     "name": project["name"],
                     "id": project["gid"],
-                    "owner": (
-                        project.get("owner").get("name")
-                        if project.get("owner")
-                        else "No owner"
-                    ),
+                    "owner": project.get("owner").get("name") if project.get("owner") else "No owner",
                     "permalink_url": project["permalink_url"],
                 }
             )
@@ -80,8 +74,8 @@ class AsanaWithAccessToken:
         if offset:
             params["offset"] = offset
 
-        return self.client.users.get_users(params, opt_fields=["email", "is_guest"])
-
+        return self.client.users.get_users(params, opt_fields=["email","is_guest"])
+    
     def get_current_user(self):
         return self.client.users.me(opt_pretty=True)
 

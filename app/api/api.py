@@ -27,12 +27,6 @@ from app.api.endpoints.migration import user_mapping_router
 app = FastAPI(title="Workino API", version="0.1.0")
 
 
-@app.options("/{path:path}")
-async def options_handler(path: str):
-    """Handle all OPTIONS requests for CORS preflight"""
-    return {"message": "OK"}
-
-
 BACKEND_CORS_ORIGINS = [
     "http://localhost:8080",
     "http://localhost:3000",
@@ -42,10 +36,6 @@ BACKEND_CORS_ORIGINS = [
     "https://app.asana.works",
     "https://app.workino.co",
     "https://app.asana.com",
-    "https://app-kf1d0jof8-omtera-dev.vercel.app",
-    "https://*.vercel.app",
-    "https://*.vercel.app/*",
-    "https://app-b2cvht7dd-omtera-dev.vercel.app",
 ]
 
 # Set all CORS enabled origins.
@@ -54,7 +44,7 @@ if BACKEND_CORS_ORIGINS:
         CORSMiddleware,
         allow_origins=BACKEND_CORS_ORIGINS,
         allow_credentials=True,
-        allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allow_methods=["*"],
         allow_headers=["*"],
     )
 
