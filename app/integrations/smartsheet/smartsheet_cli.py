@@ -52,11 +52,9 @@ class SmartsheetClient:
         workspace = self.client.Workspaces.get_workspace(workspace_id, load_all=True)
         print(workspace, "smartsheet workspace")
         projects = []
-        if hasattr(workspace, "folders"):
-            for folder in workspace.folders:
-                if hasattr(folder, "sheets"):
-                    for sheet in folder.sheets:
-                        projects.append({"id": str(sheet.id), "name": sheet.name})
+        if hasattr(workspace, "sheets"):
+            for sheet in workspace.sheets:
+                projects.append({"id": str(sheet.id), "name": sheet.name})
 
         print(projects)
 
