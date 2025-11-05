@@ -5,13 +5,13 @@ RUN useradd -ms /bin/sh -u 1001 app
 ARG GITHUB_TOKEN
 ENV GITHUB_TOKEN=${GITHUB_TOKEN}
 
-WORKDIR /
+WORKDIR /code
 COPY requirements.txt ./
 RUN git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/" && \
     pip install --no-cache-dir --upgrade -r requirements.txt && \
     git config --global --unset url."https://${GITHUB_TOKEN}@github.com/".insteadOf
 
-COPY --chown=app:app ./app /app
+COPY --chown=app:app ./app /code/app
 
 USER app
 

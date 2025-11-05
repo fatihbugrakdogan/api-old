@@ -11,7 +11,7 @@ services:
       watch:
         - action: sync
           path: ./app
-          target: /app
+          target: /code/app
 
     expose:
       - 80

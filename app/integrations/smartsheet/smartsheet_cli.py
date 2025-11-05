@@ -50,6 +50,7 @@ class SmartsheetClient:
         """Get all projects from a specific sheet"""
 
         workspace = self.client.Workspaces.get_workspace(workspace_id, load_all=True)
+        print(workspace, "smartsheet workspace")
         projects = []
         if hasattr(workspace, "folders"):
             for folder in workspace.folders:
