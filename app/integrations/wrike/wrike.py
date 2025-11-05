@@ -56,3 +56,18 @@ class WrikeHandler:
         project = json.loads(project.text)
 
         return project
+
+    def get_current_user(self):
+        """Get the current user's information"""
+        try:
+            # Get current user from Wrike API
+            from WrikePy import Contacts
+            user_response = Contacts(self.client).query_contacts_me()
+            user_data = json.loads(user_response.text)
+            if user_data.get("data"):
+                profiles = user_data["data"][0].get("profiles", [])
+                if profiles:
+                    return {"email": profiles[0].get("email")}
+            return {"email": None}
+        except Exception as e:
+            return {"email": None}

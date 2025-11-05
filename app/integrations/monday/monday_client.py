@@ -170,3 +170,20 @@ class Monday:
             page += 1
 
         return all_users
+
+    def get_current_user(self):
+        """Get the current user's information"""
+        try:
+            query = """
+            query {
+                me {
+                    id
+                    name
+                    email
+                }
+            }
+            """
+            response = self.make_request(query)
+            return {"email": response["me"].get("email")}
+        except Exception as e:
+            return {"email": None}

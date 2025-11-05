@@ -128,3 +128,12 @@ class Asana:
 
     def delete_webhook(self, webhook_gid):
         return self.client.webhooks.delete_webhook(webhook_gid, opt_pretty=True)
+
+    def get_current_user(self):
+        """Get the current user's information"""
+        try:
+            # Get current user from Asana
+            user = self.client.users.get_user("me")
+            return {"email": user.get("email")}
+        except Exception as e:
+            return {"email": None}

@@ -104,3 +104,12 @@ class SmartsheetClient:
         """Get the name of the workspace"""
         response = self.client.Workspaces.get_workspace(workspace_id)
         return response.name
+
+    def get_current_user(self):
+        """Get the current user's information"""
+        try:
+            # Get current user info from Smartsheet
+            current_user = self.client.Users.get_current_user()
+            return {"email": current_user.email}
+        except Exception as e:
+            return {"email": None}

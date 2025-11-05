@@ -38,3 +38,13 @@ class AirtableClient:
     def get_workspace_name(self, workspace_id):
         """Get the name of the workspace"""
         return self.api.base(workspace_id).name
+
+    def get_current_user(self):
+        """Get the current user's information"""
+        try:
+            # Airtable API whoami endpoint
+            whoami = self.api.whoami()
+            return {"email": whoami.get("email")}
+        except Exception as e:
+            # Fallback if whoami is not available
+            return {"email": None}
